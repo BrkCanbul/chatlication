@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    android:padding="@dimen/cardview_default_radius"
+    android:scrollbars="none"
+    android:background="@color/primary"
+    tools:context=".activities.Signin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="100dp"
+            android:layout_width="410dp"
+            android:layout_height="204dp"
+            android:src="@mipmap/ic_launcher"
+            app:riv_border_width="6dp"
+            app:riv_border_color="@color/primary_4"
+            app:riv_corner_radius_bottom_left="16dp"
+            app:riv_corner_radius_top_left="16dp"
+            app:riv_corner_radius_bottom_right="16dp"
+            app:riv_corner_radius_top_right="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+
+            android:text="Chatlication"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="331dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="66sp"
+            android:background="@color/primary_2"
+            android:paddingLeft="15dp"
+            android:ems="10"
+            android:hint="e-mail"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="334dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="22sp"
+            android:background="@color/primary_2"
+            android:ems="10"
+            android:paddingLeft="15dp"
+
+            android:hint="password"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/button_signin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="25dp"
+            android:text="SIGN IN"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_shape"
+
+            />
+        <TextView
+            android:id="@+id/textCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="create new account"
+            android:textAlignment="center"
+            android:layout_marginTop="14dp"
+            android:textSize="27sp"
+
+
+            />
+
+
+    </LinearLayout>
+</ScrollView>

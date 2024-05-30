@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642644699691",
+    "project_id": "chatlication-b572e",
+    "storage_bucket": "chatlication-b572e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642644699691:android:3ed61dc5a4ace4dfcb186e",
+        "android_client_info": {
+          "package_name": "com.example.chatlication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeRne0SEiQiHW06pMnCE1bbLKq5-DWXbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
